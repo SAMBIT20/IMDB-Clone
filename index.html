@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDb Movies</title>
+    <!-- bootstrap & fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Jumbotron for the main Container -->
+    <div class="jumbotron container">
+      <h1 class="display-4">
+        IMDb is an Online Database Of Information Related to Films
+      </h1>
+
+      <hr class="my-4" />
+
+      <div class="input-group mb-3">
+        <!-- Search Bar TO SEarch The movie ----------->
+        <input
+          type="text"
+          placeholder="Search IMDb"
+          id="movie-name"
+          class="form-control border-0 bg-light"
+        />
+        <button class="btn btn-success btn-lg" id="btn-search">
+          <i class="fa fa-search"></i> Search!
+        </button>
+        <button class="btn btn-danger btn-lg" id="btn-favourite">
+          <i class="fa fa-heart"></i> My Favourites
+        </button>
+      </div>
+      <!-- Div tag  to  auto complete the suggestation -->
+      <div id="auto-complete-container">
+        <ul id="auto-complete" class="list-group"></ul>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

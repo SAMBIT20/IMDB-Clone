@@ -1,0 +1,45 @@
+/* background */
+body {
+  background-image: url(./assets/background-3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Heading for fav page*/
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 2.3rem;
+  background-color: rgba(10, 51, 53, 0.863);
+  padding: 3%;
+}
+/* container containing cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* setting individual cards */
+.card {
+  color: white;
+  text-align: center;
+  background-color: rgba(6, 5, 24, 0.795);
+  margin: 3%;
+  width: 18rem;
+}
+/* card image */
+.card img {
+  padding: 2%;
+}
+/* buttons */
+button {
+  margin: 1%;
+}
+
+.btn-success {
+  background-color: purple !important;
+}
+.btn-danger {
+  background-color: rgb(10, 163, 252) !important;
+}
